@@ -1,0 +1,5 @@
+pandas
+spacy
+pandarallel
+evaluate
+openai

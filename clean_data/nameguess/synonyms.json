@@ -1,0 +1,602 @@
+{
+    "supervisor": [
+        "supervising",
+        "supervisorial",
+        "supervisory",
+        "supervised"
+    ],
+    "oppose": "opponent",
+    "exceedance": "exceeding",
+    "build": "building",
+    "use": [
+        "usage",
+        "user"
+    ],
+    "leave": "leaving",
+    "count": "counter",
+    "responsible": [
+        "response",
+        "respond"
+    ],
+    "visit": [
+        "visitor",
+        "visitors",
+        "visited",
+        "visits"
+    ],
+    "plan": [
+        "planning",
+        "planned",
+        "planner"
+    ],
+    "prop": [
+        "property",
+        "properties"
+    ],
+    "mips": [
+        "million instructions per second",
+        "millions instructions per second"
+    ],
+    "geography": "geographic",
+    "signage": [
+        "sign",
+        "signed",
+        "signature"
+    ],
+    "seating": [
+        "seat",
+        "seats"
+    ],
+    "services": "service",
+    "zoning": "zone",
+    "applicant": [
+        "application",
+        "apply",
+        "applied"
+    ],
+    "exit": [
+        "exits"
+    ],
+    "exist": [
+        "existing",
+        "exists",
+        "existence"
+    ],
+    "affordable": "affordability",
+    "historic": "historical",
+    "begin": "beginning",
+    "min": [
+        "minimum",
+        "minutes"
+    ],
+    "max": "maximum",
+    "inspector": "inspection",
+    "generalized": [
+        "general",
+        "generalization"
+    ],
+    "info": "information",
+    "cultural": "culture",
+    "identifier": [
+        "id",
+        "identification",
+        "identified"
+    ],
+    "data set": "dataset",
+    "publishing": [
+        "published",
+        "publication",
+        "publish",
+        "publisher",
+        "pub"
+    ],
+    "percent": [
+        "percentage",
+        "%"
+    ],
+    "fields": "field",
+    "eff": [
+        "effective",
+        "effectiveness"
+    ],
+    "select": [
+        "selection",
+        "selections"
+    ],
+    "influence": "influencing",
+    "expenditure": [
+        "expense",
+        "expenses"
+    ],
+    "owner": [
+        "ownership",
+        "owning",
+        "owned"
+    ],
+    "bond": "bonds",
+    "create": "creation",
+    "alt": [
+        "alternation",
+        "alteration",
+        "alternate"
+    ],
+    "authorized": [
+        "authorised",
+        "authorization",
+        "authority"
+    ],
+    "install": "installation",
+    "tabular": [
+        "table",
+        "tabulated"
+    ],
+    "vulnerable": "vulnerability",
+    "completed": [
+        "completion",
+        "complete",
+        "completing"
+    ],
+    "organization": "organizational",
+    "spending": "spend",
+    "year": [
+        "years",
+        "yearly"
+    ],
+    "acquired": "acquisition",
+    "sync": [
+        "synchronization",
+        "synchronize"
+    ],
+    "gifted": "gift",
+    "simplified": [
+        "simplification",
+        "simple"
+    ],
+    "ref": "reference",
+    "proceed": "proceeded",
+    "practice": "practitioner",
+    "direct": "direction",
+    "contractor": "contract",
+    "commission": "commissioner",
+    "bill able": "billable",
+    "notice": [
+        "notification",
+        "notices"
+    ],
+    "paid": [
+        "payment",
+        "pay",
+        "payor",
+        "payee",
+        "payers",
+        "payments"
+    ],
+    "leased": "lease",
+    "special": "specials",
+    "suitable": "suitablity",
+    "conditions": "condition",
+    "water": "aquatic",
+    "thrifty": "thrift",
+    "photo": "picture",
+    "measure": "measurement",
+    "notes": "note",
+    "filename": "file name",
+    "close": [
+        "closed",
+        "closing",
+        "closure"
+    ],
+    "pop": "population",
+    "tot": "total",
+    "vaccinated": [
+        "vaccinations",
+        "vaccine",
+        "vaccination"
+    ],
+    "booster": "boosters",
+    "frontage": "front",
+    "detector": [
+        "detection",
+        "detect"
+    ],
+    "neighborhood": "neighboring",
+    "factor": "factoring",
+    "listed": "list",
+    "approved": [
+        "okayed",
+        "approval",
+        "approve"
+    ],
+    "expiration": [
+        "expiry",
+        "expire"
+    ],
+    "filing": [
+        "file",
+        "filings",
+        "filer"
+    ],
+    "certified": [
+        "certificate",
+        "certification"
+    ],
+    "submission": [
+        "submitted",
+        "submit"
+    ],
+    "election": [
+        "elected",
+        "elective"
+    ],
+    "dock": "docking",
+    "exhibition": "exhibit",
+    "accounting": "account",
+    "boundaries": [
+        "boundary",
+        "bound",
+        "bounds"
+    ],
+    "park": "parking",
+    "purchasing": "purchase",
+    "supplier": "supply",
+    "megahertz": "mhz",
+    "watts": "wattage",
+    "detail": [
+        "details",
+        "detailed"
+    ],
+    "issuance": [
+        "issue",
+        "issued"
+    ],
+    "disabled": "disability",
+    "multiple": "multi",
+    "people": [
+        "person",
+        "personnel"
+    ],
+    "latino": "latin",
+    "american": [
+        "united states",
+        "america",
+        "americans"
+    ],
+    "recipient": "receipt",
+    "pass": "passing",
+    "doc": "document",
+    "tenant": "tenancy",
+    "petition": "petitioner",
+    "designation": "designated",
+    "update": "updated",
+    "testing": [
+        "test",
+        "tested"
+    ],
+    "net": [
+        "network",
+        "internet"
+    ],
+    "ret": "return",
+    "22": "22nd",
+    "31": "31st",
+    "41": "41st",
+    "11": "11th",
+    "32": "32nd",
+    "33": "33rd",
+    "43": "43rd",
+    "45": "45th",
+    "46": "46th",
+    "54": "54th",
+    "21": "21st",
+    "34": "34th",
+    "42": "42nd",
+    "44": "44th",
+    "51": "51st",
+    "52": "53nd",
+    "53": "53rd",
+    "times": "time",
+    "numeric": [
+        "number",
+        "no",
+        "without"
+    ],
+    "classification": "class",
+    "active": "activity",
+    "editor": [
+        "edit",
+        "edited"
+    ],
+    "technology": "technical",
+    "report": "reporter",
+    "functional": "function",
+    "contributor": [
+        "contribution",
+        "contributory",
+        "contributing"
+    ],
+    "qualify": [
+        "qualification",
+        "qualified"
+    ],
+    "mail": "mailing",
+    "open": [
+        "opened",
+        "opens",
+        "openness",
+        "opening"
+    ],
+    "schedule": "scheduled",
+    "revision": "revised",
+    "disposition": [
+        "disposal",
+        "disposed"
+    ],
+    "repair": "repairs",
+    "maintain": "maintainance",
+    "base": "basic",
+    "swim": "swimming",
+    "sub task": "subtask",
+    "web": [
+        "website",
+        "web site"
+    ],
+    "subaccount": "sub account",
+    "memo": "memorandum",
+    "sub category": "subcategory",
+    "educational": "education",
+    "finance": [
+        "financial",
+        "financing"
+    ],
+    "collected": "collection",
+    "miniature": "mini",
+    "gymnasium": "gymnastics",
+    "archery": "archer",
+    "carousel": "carousels",
+    "lagoon": "lagoons",
+    "administrator": [
+        "administrative",
+        "admin",
+        "administration"
+    ],
+    "seventh": "7th",
+    "third": "3rd",
+    "fifth": "5th",
+    "secondary": [
+        "2ndary",
+        "second"
+    ],
+    "sixth": "6th",
+    "fourth": "4th",
+    "impair": [
+        "impairments",
+        "impairment",
+        "impaired"
+    ],
+    "electricity": [
+        "electrical",
+        "electric"
+    ],
+    "shooting": "shootings",
+    "descriptive": "description",
+    "centroid": [
+        "center",
+        "centre",
+        "central",
+        "centers"
+    ],
+    "time stamp": "timestamp",
+    "health": "healthy",
+    "spot light": "spotlight",
+    "hospitalizations": [
+        "hospitalized",
+        "hospitalization",
+        "hospital"
+    ],
+    "individualized": "individual",
+    "environment": "environmental",
+    "track": "tracking",
+    "instruction": "instructional",
+    "inclusive": [
+        "inclusivity",
+        "included",
+        "inclusion"
+    ],
+    "collaborative": "collaboration",
+    "leaders": [
+        "leader",
+        "leadership"
+    ],
+    "ambitious": [
+        "ambition",
+        "ambitions"
+    ],
+    "suspension": [
+        "suspend",
+        "suspended"
+    ],
+    "abandoned": [
+        "abandonment",
+        "abandon"
+    ],
+    "4": "four",
+    "5": "five",
+    "1": "one",
+    "2": "two",
+    "3": "three",
+    "school": "schools",
+    "safe": "safety",
+    "lobbyist": "lobbyist's",
+    "source": "sources",
+    "adjust": [
+        "adjusted",
+        "adjustment"
+    ],
+    "influenza": "flu",
+    "race": "racial",
+    "week end": [
+        "weekend",
+        "weekends"
+    ],
+    "assistive": "assistance",
+    "affiliated": [
+        "affiliation",
+        "affiliate"
+    ],
+    "explore": "exploration",
+    "appropriate": "appropriation",
+    "clinic": "clinical",
+    "family": "families",
+    "rate": [
+        "rates",
+        "ratio"
+    ],
+    "retraining": "retrain",
+    "tank": "tanks",
+    "modify": [
+        "modified",
+        "modification"
+    ],
+    "request": [
+        "require",
+        "requests",
+        "requestor",
+        "requester",
+        "requested",
+        "required",
+        "requirement",
+        "requirements"
+    ],
+    "screen": "screening",
+    "teach": [
+        "teaching",
+        "teacher",
+        "teachers"
+    ],
+    "accessible": "accessibility",
+    "transport": "transportation",
+    "hawaii": "hawaiian",
+    "employee": "employer",
+    "behavior": "behavioral",
+    "involved": "involvement",
+    "fund": "funding",
+    "denials": "denied",
+    "mark": "marker",
+    "subsection": [
+        "sub sector",
+        "sub section"
+    ],
+    "ordinance": "ordinary",
+    "computer": "computing",
+    "feet": "footage",
+    "sector": "section",
+    "annual": "annually",
+    "registrations": [
+        "registration",
+        "register"
+    ],
+    "ventilators": "ventilator",
+    "available": "availability",
+    "covid": "covid-19",
+    "area": "region",
+    "rue": "street",
+    "treasurer": "treasury",
+    "receptacles": "receptacle",
+    "acre": [
+        "acres",
+        "acreage"
+    ],
+    "sub object": "subobject",
+    "reject": [
+        "rejected",
+        "rejection"
+    ],
+    "art": "artist",
+    "structure": "structural",
+    "drain": "drainage",
+    "programming": "program",
+    "telephone": "phone",
+    "cap": "capacity",
+    "costs": "cost",
+    "bargaining": "bargain",
+    "caption": "captioning",
+    "offenses": "offense",
+    "arrests": "arrest",
+    "pickup": "pick up",
+    "graduation": "graduate",
+    "correspondent": "correspondence",
+    "math": "mathematics",
+    "death": "deaths",
+    "non-latinx": "non-latino",
+    "add": "additional",
+    "regulatory": "regulation",
+    "resources": "resource",
+    "event": "events",
+    "Wi-Fi": "WiFi",
+    "over time": "overtime",
+    "birth date": "birthdate",
+    "train": [
+        "training",
+        "trained"
+    ],
+    "web page": "webpage",
+    "speciality": "specialty",
+    "island": "islander",
+    "incidence": "incident",
+    "childhood": "child hood",
+    "para transit": "paratransit",
+    "primary care physician": "primary care provider",
+    "sub type": "subtype",
+    "construction": "constructive",
+    "residential": "resident",
+    "action": [
+        "activity",
+        "act"
+    ],
+    "lab": "laboratory",
+    "sum": "summary",
+    "OFFICER": [
+        "official",
+        "office"
+    ],
+    "replace": "replacement",
+    "non payment": "nonpayment",
+    "pax": "passenger",
+    "shuffleboard": "shuffle board",
+    "combo": "combination",
+    "significant": "significantly",
+    "assigned": "assignment",
+    "regular": "regulatory",
+    "week": "weekly",
+    "teen": "teenage",
+    "arab": "arabic",
+    "elevation": "elevated",
+    "start": "started",
+    "successful": "successfully",
+    "underwriter": "under writer",
+    "home": "homes",
+    "book": "booking",
+    "architect": "architecture",
+    "origin": "original",
+    "character": "characteristic",
+    "developer": "development",
+    "exempt": "exemption",
+    "type": "types",
+    "category": "categories",
+    "implement": "implementation",
+    "operating": [
+        "operational",
+        "operation",
+        "operator",
+        "operated"
+    ],
+    "renewal": "renewed",
+    "nature": "natural",
+    "reimburse": "reimbursement",
+    "render": "rendering",
+    "prime": "primary",
+    "process": "processed",
+    "landing": "landed",
+    "occupant": "occupancy",
+    "tow": "towing"
+}

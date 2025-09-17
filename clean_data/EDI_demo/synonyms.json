@@ -1,0 +1,142 @@
+{
+    "id": [
+        "identification",
+        "identifier"
+    ],
+    "ndvi": [
+        "normalized difference vegetation index"
+    ],
+    "par": "Photosynthetically Active Radiation",
+    "lter": "Long-Term Ecological Research",
+    "utc": [
+        "Universal Time Coordinate",
+        "Coordinated Universal Time"
+    ],
+    "cover": "coverage",
+    "timestamp": "time stamp",
+    "north": "northern",
+    "west": "western",
+    "mow": "mowing",
+    "bmc": "Biomass Carbon",
+    "bmn": "Biomass Nitrogen",
+    "standardized": "standard",
+    "pop": "population",
+    "transportation": "transport",
+    "clean": "cleanliness",
+    "%": [
+        "percentage",
+        "percent"
+    ],
+    "#": [
+        "number",
+        "count"
+    ],
+    "renest": "renesting",
+    "season": "seasonal",
+    "year": [
+        "yearly",
+        "years"
+    ],
+    "birdtree": "bird tree",
+    "transfer": "transformation",
+    "thawed": "thaw",
+    "observer": "observation",
+    "fnu": "Formazin Nephelometric Units",
+    "kilometer": "kilometers",
+    "moles": "mole",
+    "meters": "meter",
+    "milligrams": "milligram",
+    "micrograms": "microgram",
+    "liter": [
+        "litre",
+        "litres",
+        "liters"
+    ],
+    "grams": "gram",
+    "kilograms": "kilogram",
+    "micromoles": [
+        "micromolar",
+        "micromole"
+    ],
+    "crustacean": "crustaceans",
+    "denitrification": "denitrifying",
+    "flag": "flagged",
+    "ecosystem": "ecosystems",
+    "requirement": "required",
+    "hmp": "humidity probe",
+    "fledged": [
+        "fledging",
+        "fledge"
+    ],
+    "photo": "photograph",
+    "opt": [
+        "optimum",
+        "optimized",
+        "optimal"
+    ],
+    "quest": "question",
+    "pebbles": "pebble",
+    "ten": "10",
+    "twenty": "20",
+    "forty": "40",
+    "five": "5",
+    "lay": "laying",
+    "lab": "laboratory",
+    "time 0": "initial",
+    "savings": "saving",
+    "crops": "crop",
+    "wetlands": "wetland",
+    "pregnant": "pregnancy",
+    "datetime": "date time",
+    "bluegill": "blue gill",
+    "pin": "personal identification number",
+    "conductance": "conductivity",
+    "long wave": "longwave",
+    "short wave": "shortwave",
+    "leach": [
+        "leached",
+        "leachate",
+        "leaching"
+    ],
+    "porewater": "pore water",
+    "sub site": "subsite",
+    "completed": "completion",
+    "hatched": "hatch",
+    "qualifying": "quality",
+    "root": "roots",
+    "8/10": "august 10th",
+    "9/23": "september 23rd",
+    "K600": [
+        "gas exchange rate",
+        "gas exchange coefficient",
+        "gas exchange coefficient at 600"
+    ],
+    "abbreviation": "abbreviated",
+    "production": "productivity",
+    "micrometer": "micrometers",
+    "can": "canister",
+    "collect": "collection",
+    "0": "zero",
+    "1": "one",
+    "log": "logarithm",
+    "met": "Meteorological",
+    "+": "plus",
+    "redear": "red ear",
+    "start": [
+        "begin",
+        "beginning"
+    ],
+    "quadrat": "quadrant",
+    "subquadrat": [
+        "sub quadrat",
+        "sub quadrant"
+    ],
+    "sort": "sorted",
+    "millimeter squared": "Square Millimeter",
+    "construct": [
+        "construction",
+        "constructed"
+    ],
+    "prior": "previous",
+    "Logarithm Natural": "natural log"
+}
