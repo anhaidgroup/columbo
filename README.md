@@ -2,6 +2,7 @@
 Repository for the Columbo paper, contains the data, method, and evaluation script. Columbo is a LLM-based solution to expand abbreviate column names into its full-form, e.g. "e_sal" to "employee salary"
 
 
+
 # Installation
 Recommend Python Environment: Python 3.10.12
 Required packages: requirements.txt
