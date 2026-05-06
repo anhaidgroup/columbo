@@ -27,17 +27,64 @@ python -m spacy download en_core_web_sm
 ```
 
 # Dataset
-There are 3 datasets for evaluating column name expansion in the ./clean_data folder: NameGuess, EDI, AdventureWork. 
 
-For each dataset: 
-- gold.pkl contains the table name, column names and gold expansion of column names. 
-- synonyms.json contains the synonyms for the full-form words. 
-- stopwords.json contains the stopwords appeared in the dataset.
+Three benchmark datasets are provided in `./clean_data/` for evaluating column name expansion:
+
+| Dataset | # Columns | Table column | Column name column | Gold label column |
+|---|---|---|---|---|
+| `AdventureWork` | 825 | `Table` | `COLUMN_NAME_1` | `GT_LABEL_1` |
+| `EDI_demo` | 3,830 | `table_name` | `column_name` | `gt_label` |
+| `nameguess` | 9,196 | `table_id` | `technical_name` | `gt_label` |
+
+Each dataset folder contains:
+- `gold.pkl` — a pandas DataFrame with table names, abbreviated column names, and their gold expansions
+- `synonyms.json` — synonyms for gold expansion words, used during evaluation
+- `stopwords.json` — stopwords to ignore during evaluation
 
 # Usage
-An example usage to run Columbo on "AdventureWork" dataset is:
 
-``python main.py   --dataset AdventureWork_1   --table Table   --column COLUMN_NAME_1   --gt_label GT_LABEL_1   --api_key [YOUR_OPENAI_API_KEY]``
+To run Columbo on one of the provided datasets, pass the dataset folder name and the corresponding column name arguments. For example, to run on the **AdventureWork** dataset:
+
+```bash
+python main.py \
+  --dataset AdventureWork \
+  --table Table \
+  --column COLUMN_NAME_1 \
+  --gt_label GT_LABEL_1 \
+  --api_key [YOUR_OPENAI_API_KEY]
+```
+
+**Using your own data**
+
+If you have a CSV file with your own tables and column names, you can run Columbo on it as follows:
+
+1. Create a folder for your dataset under `clean_data/`:
+```
+clean_data/<YOUR_DATASET>/
+```
+
+2. Convert your CSV to a pickle file and save it as `gold.pkl`. Your CSV must have at least three columns: one for the table name, one for the abbreviated column name, and one for the ground truth expansion (used for evaluation):
+```python
+import pandas as pd
+df = pd.read_csv('your_data.csv')
+df.to_pickle('clean_data/<YOUR_DATASET>/gold.pkl')
+```
+
+3. Create empty `synonyms.json` and `stopwords.json` files:
+```bash
+echo '{}' > clean_data/<YOUR_DATASET>/synonyms.json
+echo '{}' > clean_data/<YOUR_DATASET>/stopwords.json
+```
+
+4. Run Columbo with the column names from your CSV:
+```bash
+python main.py \
+  --dataset <YOUR_DATASET> \
+  --table <TABLE_COLUMN> \
+  --column <COLUMN_NAME_COLUMN> \
+  --gt_label <GOLD_LABEL_COLUMN> \
+  --api_key [YOUR_OPENAI_API_KEY]
+```
 
 
 # Citation
