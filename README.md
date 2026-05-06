@@ -34,7 +34,7 @@ Three benchmark datasets are provided in `./clean_data/` for evaluating column n
 |---|---|---|---|---|
 | `AdventureWork` | 825 | `Table` | `COLUMN_NAME_1` | `GT_LABEL_1` |
 | `EDI_demo` | 3,830 | `table_name` | `column_name` | `gt_label` |
-| `nameguess` | 9,196 | `table_id` | `technical_name` | `gt_label` |
+| `nameguess` | 9,196 | — | `technical_name` | `gt_label` |
 
 Each dataset folder contains:
 - `gold.pkl` — a pandas DataFrame with table names, abbreviated column names, and their gold expansions
@@ -88,13 +88,13 @@ python main.py \
 
 
 # Citation
-If you use Columbo in your work, please cite our EMNLP 2025 paper:
+If you use Columbo in your work, please cite our EMNLP 2025 Findings paper:
 
 ```bibtex
 @inproceedings{cai2025columbo,
   title={Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models},
   author={Cai, Ting and Sheen, Stephen and Doan, AnHai},
-  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
   year={2025}
 }
 ```
