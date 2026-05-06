@@ -54,6 +54,20 @@ python main.py \
   --api_key [YOUR_OPENAI_API_KEY]
 ```
 
+The key arguments are:
+
+| Argument | Description |
+|---|---|
+| `--dataset` | Name of the dataset folder under `clean_data/` |
+| `--table` | Column in `gold.pkl` that contains the table name |
+| `--column` | Column in `gold.pkl` that contains the abbreviated column name |
+| `--gt_label` | Column in `gold.pkl` that contains the ground truth expansion (used for evaluation) |
+| `--api_key` | Your OpenAI API key |
+| `--model` | OpenAI model to use (default: `gpt-4o`) |
+| `--temperature` | Sampling temperature (default: `0`) |
+| `--batch_size` | Number of columns processed per batch (default: `30`) |
+| `--k` | Number of in-context examples used during column expansion (default: `10`) |
+
 **Using your own data**
 
 If you have a CSV file with your own tables and column names, you can run Columbo on it as follows:
