@@ -1,3 +1,45 @@
+# =============================================================================
+# main.py — Entry point for the Columbo pipeline
+# =============================================================================
+#
+# Pipeline overview (three stages):
+#
+#   1. Table Clustering  (table_cluster.py)
+#      Groups tables in the dataset into semantically related topic clusters
+#      using an LLM. This provides dataset-level context that helps disambiguate
+#      column names that share the same abbreviation across different tables.
+#      Output: result_df.pkl
+#
+#   2. Column Expansion  (column_expand.py)
+#      Expands each abbreviated column name into a full-form phrase. For each
+#      column, the LLM is prompted with in-context examples (K nearest neighbors
+#      from the same topic cluster), the table context, and chain-of-thought
+#      reasoning instructions. Each token in the column name is expanded
+#      individually.
+#      Output: exp_df.pkl
+#
+#   3. Token Revision  (token_revise.py)
+#      Identifies tokens whose expansions are inconsistent across tables
+#      (i.e., the same abbreviation was expanded differently in different
+#      contexts). For each such ambiguous token, the LLM is prompted with the
+#      full dataset-level context to decide on the most coherent expansion.
+#      Output: pred_df.pkl
+#
+# Evaluation  (evaluate_with_synonyms.py)
+#   After the three stages, predictions are evaluated against gold labels.
+#   Synonyms (synonyms.json) are used to treat semantically equivalent
+#   expansions as correct. Stopwords (stopwords.json) are filtered out before
+#   scoring. Metrics are computed using src/metric.py, which implements:
+#     - SQuAD-style F1 and Exact Match, with spaCy lemmatization for
+#       normalization (e.g., "salaries" and "salary" are treated as the same)
+#     - BERTScore and other HuggingFace metrics via the BNGMetrics class
+#
+# Helper module  (ask_llm.py)
+#   Provides an async OpenAI client wrapper (AsyncOpenAI) used by all three
+#   pipeline stages to call the LLM.
+#
+# =============================================================================
+
 import pandas as pd
 import asyncio
 import argparse
