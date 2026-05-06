@@ -20,7 +20,7 @@ This codebase was developed and tested with **Python 3.10.12**. To install all r
 pip install -r requirements.txt
 ```
 
-Then, download the English language model for spaCy:
+Then, download the spaCy English model, which is used for lemmatization (e.g., normalizing "salaries" → "salary") when computing the evaluation metrics:
 
 ```bash
 python -m spacy download en_core_web_sm
