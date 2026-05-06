@@ -1,7 +1,20 @@
+<p align="center">
+  <img src="logo.png" alt="Columbo Logo" width="200"/>
+</p>
+
 # Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models
-Repository for the Columbo paper, contains the data, method, and evaluation script. Columbo is a LLM-based solution to expand abbreviate column names into its full-form, e.g. "e_sal" to "employee salary"
 
+[![arXiv](https://img.shields.io/badge/arXiv-2508.09403-b31b1b.svg)](https://arxiv.org/abs/2508.09403)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Model](https://img.shields.io/badge/OpenAI-GPT--4o-green.svg)](https://openai.com/)
 
+Columbo is an LLM-based system that expands abbreviated column names in tabular data into their full, human-readable forms — for example, turning `e_sal` into `employee salary`.
+
+## Overview
+
+Abbreviated column names are pervasive in real-world databases and data lakes, making it difficult for both humans and downstream systems (e.g., data integration, question answering, schema matching) to interpret table schemas. Columbo addresses this problem by exploiting table context, rules, in-context demos, chain-of-thought reasoning, and token-level analysis to produce accurate, interpretable expansions.
+
+This repository contains the datasets, method implementation, and evaluation scripts from the paper.
 
 # Installation
 Recommend Python Environment: Python 3.10.12
@@ -24,14 +37,14 @@ An example usage to run Columbo on "AdventureWork" dataset is:
 ``python main.py   --dataset AdventureWork_1   --table Table   --column COLUMN_NAME_1   --gt_label GT_LABEL_1   --api_key [YOUR_OPENAI_API_KEY]``
 
 
-# Cite
-Please cite the paper if you use the codebase in your work
+# Citation
+If you use Columbo in your work, please cite our EMNLP 2025 paper:
 
 ```bibtex
-@article{cai2025columbo,
+@inproceedings{cai2025columbo,
   title={Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models},
   author={Cai, Ting and Sheen, Stephen and Doan, AnHai},
-  journal={arXiv preprint arXiv:2508.09403},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
   year={2025}
 }
 ```
