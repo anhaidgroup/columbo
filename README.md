@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Columbo Logo" width="200"/>
+  <img src="logo.png" alt="Columbo Logo" width="100"/>
 </p>
 
 # Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models
