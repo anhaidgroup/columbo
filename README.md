@@ -20,6 +20,16 @@ This codebase was developed and tested with **Python 3.10.12**. To install all r
 pip install -r requirements.txt
 ```
 
+This installs the following dependencies:
+
+| Package | Purpose |
+|---|---|
+| `pandas` | Loading and manipulating the dataset (gold labels, predictions) |
+| `spacy` | Lemmatization during evaluation (e.g., normalizing "salaries" → "salary") |
+| `pandarallel` | Parallel processing of rows when computing evaluation metrics |
+| `evaluate` | HuggingFace library used to compute BERTScore and other metrics |
+| `openai` | Calling the OpenAI API (GPT-4o) for column name expansion |
+
 Then, download the spaCy English model, which is used for lemmatization (e.g., normalizing "salaries" → "salary") when computing the evaluation metrics:
 
 ```bash
