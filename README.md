@@ -48,7 +48,7 @@ Three benchmark datasets are provided in `./clean_data/` for evaluating column n
 | `EDI_demo` | 3,830 | `table_name` | `column_name` | `gt_label` |
 | `nameguess` | 9,196 | — | `technical_name` | `gt_label` |
 
-The above table specifies that the dataset `AdventureWork` has 825 column names. Each column name X appears in the column `COLUMN_NAME_1`, the name of the table containing X appears in the column `Table`, and the gold (that is, correct) expansion of the column name X appears in `GT_LABEL_``. Other datasets are specified similarly. 
+The above table specifies that the dataset `AdventureWork` has 825 column names. Each column name X appears in the column `COLUMN_NAME_1`, the name of the table containing X appears in the column `Table`, and the gold (that is, correct) expansion of the column name X appears in `GT_LABEL_`. Other datasets are specified similarly. 
 
 Note that the dataset `nameguess` does not contain meaningful table names. 
 
