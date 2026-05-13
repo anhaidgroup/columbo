@@ -38,17 +38,21 @@ Then, download the spaCy English model, which is used for lemmatization (e.g., n
 python -m spacy download en_core_web_sm
 ```
 
-# Dataset
+# Datasets
 
 Three benchmark datasets are provided in `./clean_data/` for evaluating column name expansion:
 
-| Dataset | # Columns | Table column | Column name column | Gold label column |
+| Dataset | # Columns | "Table Name" Column | "Column Name" Column | "Gold" Column |
 |---|---|---|---|---|
 | `AdventureWork` | 825 | `Table` | `COLUMN_NAME_1` | `GT_LABEL_1` |
 | `EDI_demo` | 3,830 | `table_name` | `column_name` | `gt_label` |
 | `nameguess` | 9,196 | — | `technical_name` | `gt_label` |
 
-Each dataset folder contains:
+The above table specifies that the dataset `AdventureWork` has 825 column names. Each column name X appears in the column `COLUMN_NAME_1`, the name of the table containing X appears in the column `Table`, and the gold (that is, correct) expansion of the column name X appears in `GT_LABEL_``. Other datasets are specified similarly. 
+
+Note that the dataset `nameguess` does not contain meaningful table names. 
+
+Each dataset folder in `./clean_data/` contains:
 - `gold.pkl` — a pandas DataFrame with table names, abbreviated column names, and their gold expansions
 - `synonyms.json` — synonyms for gold expansion words, used during evaluation
 - `stopwords.json` — stopwords to ignore during evaluation
@@ -114,7 +118,7 @@ python main.py \
 
 
 # Citation
-If you use Columbo in your work, please cite our EMNLP 2025 Findings paper:
+If you use Columbo in your work, please cite our EMNLP-2025 paper:
 
 ```bibtex
 @inproceedings{cai2025columbo,
