@@ -10,7 +10,9 @@
 
 ## Overview
 
-Columbo is an LLM-based system that expands abbreviated column names in tabular data into their full, human-readable forms — for example, turning `e_sal` into `employee salary`. Abbreviated column names are pervasive in real-world databases and data lakes, making it difficult for both humans and downstream systems (e.g., data integration, question answering, schema matching) to interpret table schemas. Columbo addresses this problem by exploiting table context, rules, in-context demos, chain-of-thought reasoning, and token-level analysis to produce accurate, interpretable expansions.
+Columbo is an LLM-based system that expands abbreviated column names in tabular data into their full, human-readable forms — for example, turning `e_sal` into `employee salary`. 
+
+Abbreviated column names are pervasive in real-world databases and data lakes, making it difficult for both humans and downstream systems (e.g., keyword search, data integration, question answering, schema matching) to interpret table schemas. Columbo addresses this problem by exploiting table context, rules, in-context demos, chain-of-thought reasoning, and token-level analysis to produce accurate, interpretable expansions.
 
 # Installation
 
